@@ -1,10 +1,11 @@
 https://wilsjame.github.io/how-to-nasa/
--
+-basic layout for nasa pulls
 https://epic.gsfc.nasa.gov/about/api
--
-https://www.w3schools.com/html/html_scripts.asp
--
-https://bootcampspot.instructure.com/courses/5099/external_tools/313
--
+-basic info on epic pulls
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+-using bootstrap basics
+
 Tutor Justin
--
+-using async
+-helping re-order code to be cleaner
+-introducing to bootstrap

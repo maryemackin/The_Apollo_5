@@ -1,4 +1,0 @@
-nasa_api_key = "SzJT9rMVM1caktWPqH0sEhmSMHxtuYMgKEGoALPb"
-
-app_key = 'd1f28fd7-715e-48f4-9ed1-3f6d3856c95d'
-app_secret = '34b243d6c8ee565d6202c665305d077b1b86155873233a6e2f7066aaf89af389391911f143cfed64e81b65de136d8eedbd4e2596e91829212aef8f6bf249a0fc7a18e71bbcb6b1f3f235aa4db3e49ebbf6e29f502f89cb0fd678a307b7dcbcd192fb5cdfd2061d38fdd17c7afd0569e3'

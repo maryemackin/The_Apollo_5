@@ -11,9 +11,10 @@ async function fetch_epic(selected_date) {
   let img_type = ".png";
   console.log(response)
   console.log(selected_date.replaceAll("-", "/"))
-    document.getElementById("img1").src = img_url + response[7].image + img_type;
-    document.getElementById("img2").src = img_url + response[8].image + img_type;
-    document.getElementById("img3").src = img_url + response[9].image + img_type;
+    document.getElementById("img1").src = img_url + response[0].image + img_type;
+    document.getElementById("img2").src = img_url + response[2].image + img_type;
+    document.getElementById("img3").src = img_url + response[5].image + img_type;
+    document.getElementById("img4").src = img_url + response[8].image + img_type;
 
 }
 
