@@ -14,5 +14,9 @@ def home():
 def stats():
     return render_template(".html")
 
+@app.route("/map")
+def map():
+    return render_template(".html")
+
 if __name__ == "__main__":
     app.run(debug = True)

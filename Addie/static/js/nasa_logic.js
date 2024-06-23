@@ -1,6 +1,7 @@
 console.log("nasa logic is loaded")
 //APOD
 // from config import nasa_api_key
+let api_key = "SzJT9rMVM1caktWPqH0sEhmSMHxtuYMgKEGoALPb";
 
 let url = "https://api.nasa.gov/planetary/apod?api_key=";
 

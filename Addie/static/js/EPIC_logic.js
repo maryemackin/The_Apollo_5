@@ -1,12 +1,12 @@
 
 
-let api_key = "SzJT9rMVM1caktWPqH0sEhmSMHxtuYMgKEGoALPb";
+let api_key2 = "SzJT9rMVM1caktWPqH0sEhmSMHxtuYMgKEGoALPb";
 
 
 async function fetch_epic(selected_date) {
-  let epic_url = `https://api.nasa.gov/EPIC/api/natural/date/${selected_date}?api_key=${api_key}`;
+  let epic_url = `https://api.nasa.gov/EPIC/api/natural/date/${selected_date}?api_key=${api_key2}`;
   let response = await fetch(epic_url)
-  response = await response.json()
+  response = await response.json()  
   let img_url =  `https://epic.gsfc.nasa.gov/archive/natural/${selected_date.replaceAll("-", "/")}/png/`;
   let img_type = ".png";
   console.log(response)
