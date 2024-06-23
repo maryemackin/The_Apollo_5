@@ -47,7 +47,7 @@ function showSlides() {
     slideIndex++;
     if (slideIndex> slides.length) {slideIndex = 1} 
     slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 125); // Change image every 2 seconds
+    setTimeout(showSlides, 125); 
 }
 
 console.log("nasa logic is loaded")
