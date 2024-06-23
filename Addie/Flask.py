@@ -2,12 +2,12 @@ from flask import Flask,jsonify,render_template
 
 app = Flask(__name__)
 
-@app.route("/")
-def home():
+@app.route("/apod-epic")
+def apod():
     return render_template("nasa_index.html")
 
-@app.route("/spin")
-def spin():
+@app.route("/")
+def home():
     return render_template("spin_index.html")
 
 @app.route("/stats")
