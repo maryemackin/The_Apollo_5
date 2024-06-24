@@ -47,7 +47,7 @@ function showSlides() {
     slideIndex++;
     if (slideIndex> slides.length) {slideIndex = 1} 
     slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 140); 
+    setTimeout(showSlides, 125); 
 }
 
 console.log("nasa logic is loaded")
